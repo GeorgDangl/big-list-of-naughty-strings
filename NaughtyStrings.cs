@@ -11,7 +11,7 @@ namespace big_list_of_naughty_strings
         {
             return NaughtyStringFactory
                 .NaughtyStrings
-                .Select(naughtyString => new object[] {naughtyString});
+                .Select((naughtyString, index) => new object[] {new NaughtyString(index, naughtyString)});
         }
     }
 }
