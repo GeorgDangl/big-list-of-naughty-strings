@@ -34,6 +34,6 @@ namespace big_list_of_naughty_strings
             return replacedValue;
         }
 
-        private const string NON_PRINTABLE_REGEX = "[\u0000-\u0008\u000b\u000e-\u001f\u2029]";
+        private const string NON_PRINTABLE_REGEX = "[\u0000-\u0008\u000b\u000e-\u001f\u2028\u2029]";
     }
 }
