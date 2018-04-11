@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <EmbeddedResource Include="blns.json" />
+    <EmbeddedResource Include="blns.txt" />
   </ItemGroup>
 
 </Project>
